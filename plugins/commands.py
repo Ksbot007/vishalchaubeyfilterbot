@@ -50,8 +50,11 @@ async def start(client, message):
             InlineKeyboardButton('ʙᴏᴛs | ᴜᴘᴅᴀᴛᴇs', url='http://T.ME/PLUSTECHZ'),
             InlineKeyboardButton('ғʟɪᴍs | ᴜᴘᴅᴀᴛᴇs', url='http://T.ME/HDFLIMS4U')
             ],[
-            InlineKeyboardButton('☑️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('♼ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ', url='http://T.ME/PLUSTECHZ'),
+            InlineKeyboardButton('☑️ ʜᴇʟᴘ', callback_data='help')
+            ],[
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/PlusFlimz')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
