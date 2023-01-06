@@ -11,13 +11,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'LazyPrincess')
+SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '10184722'))
 API_HASH = environ.get('API_HASH', 'a244b4e68c7d8eb6f94ec96eada8a2f2')
 BOT_TOKEN = environ.get('BOT_TOKEN', "5714852068:AAG-Ue60mBo84_co2-W4BRRCtw-mOfPHBjs")
-
-#Port
-PORT = environ.get("PORT", "8080")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -25,7 +22,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/e69edc9fda75c12558134.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5023252317 2031196973').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5023252317 ').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001620891165').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5023252317').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -43,13 +40,13 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001623187890'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'PlusTechzSupport')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
-IMDB = is_enabled((environ.get('IMDB', "")), False)
+IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [Movies Adaa™](https://t.me/real_MoviesAdda1)</b>⚡\nName: {file_caption} \n ━═━═━═━═━═━═━═━═━═━═━═\n📥[ᴍᴏᴠɪᴇs | ᴜᴘᴅᴀᴛᴇs](http://T.ME/HDFLIMS4U)\n 🤖[ʙᴏᴛs | ᴜᴘᴅᴀᴛᴇs](http://T.ME/PLUSTECHZ)\n ⚙️ sɪᴢᴇ :</b><code>{file_size}</code>\n🔥  ↭ <b>Join Now [HDFlims4U™](https://t.me/HDFlims4U)</b> ↭  🔥")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "⚡<b>File uploaded by [Movies Adaa™](https://t.me/real_MoviesAdda1)</b>⚡\nName: {file_caption} \n ━═━═━═━═━═━═━═━═━═━═━═\n📥[ᴍᴏᴠɪᴇs | ᴜᴘᴅᴀᴛᴇs](http://T.ME/HDFLIMS4U)\n 🤖[ʙᴏᴛs | ᴜᴘᴅᴀᴛᴇs](http://T.ME/PLUSTECHZ)\n ⚙️ sɪᴢᴇ :</b><code>{file_size}</code>\n🔥  ↭ <b>Join Now [HDFlims4U™](https://t.me/HDFlims4U)</b> ↭  🔥")
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE","🎬ᴛɪᴛʟᴇ: {title} \n🔆ʀᴀᴛɪɴɢ : {rating} \n🎭 ɢᴇɴʀᴇs: {genres} \n📆ʏᴇᴀʀ: {year} \n⏰ᴅᴜʀᴀᴛɪᴏɴ : {runtime} \n🎧ʟᴀɴɢᴜᴀɢᴇs : {languages} \n🔖 sʜᴏʀᴛ : {plot} \n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :💎@HDFlims4U")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "@ksmoviesbot  <b>{file_name}</b> ")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "@ksmoviesbot  <b>{file_name}</b>  ")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🧿 ᴛɪᴛᴛʟᴇ :  {title} \n🌟 ʀᴀᴛɪɴɢ : {rating} \n🎭 ɢᴇɴʀᴇ : {genres} \n📆 ʀᴇʟᴇᴀsᴇ : {year} \n⏰ ᴅᴜʀᴀᴛɪᴏɴ : {runtime} \n🎙️ʟᴀɴɢᴜᴀɢᴇ : {languages} \n🔖 sʜᴏʀᴛ : {plot} \n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @GreyMatter_Bots")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
-SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), False)
+SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
@@ -71,11 +68,11 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', '')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'urlshortx.com')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '')
 
      # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 600))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
@@ -84,7 +81,7 @@ if SELF_DELETE == "True":
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
 DOWNLOAD_TEXT_URL = "https://t.me/HDFlims4U"
 
-   # Custom Caption Under Button #
+    # Custom Caption Under Button #
 CAPTION_BUTTON = "GET UPDATES"
 CAPTION_BUTTON_URL = "https://t.me/PlusTechz"
 
