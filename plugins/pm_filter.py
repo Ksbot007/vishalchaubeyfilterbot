@@ -2,7 +2,7 @@ import asyncio
 import re
 import ast
 import math
-
+from utils import get_shortlink
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script
 import pyrogram
@@ -437,8 +437,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʙᴏᴛs | ᴜᴘᴅᴀᴛᴇs', url='http://T.ME/PLUSTECHZ'),
             InlineKeyboardButton('ғʟɪᴍs | ᴜᴘᴅᴀᴛᴇs', url='http://T.ME/HDFLIMS4U') ],[InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ', url='https://t.me/IMDB_PREMIUM'),InlineKeyboardButton('☑️ ʜᴇʟᴘ', callback_data='help')
         ], [
-            InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'),
-            InlineKeyboardButton('♻️ ɢʀᴏᴜᴘ ♻️', url='https://t.me/PlusFlimz')
+            InlineKeyboardButton(' ᴀʙᴏᴜᴛ ', callback_data='about'),
+            InlineKeyboardButton(' ɢʀᴏᴜᴘ ', url='https://t.me/PlusFlimz')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -665,7 +665,7 @@ async def auto_filter(client, msg, spoll=False):
             [
                 InlineKeyboardButton(
                     text=f"[{get_size(file.file_size)}] {file.file_name}", 
-                    url=(f"https://t.me/{temp.U_NAME}?start=files_{file.file_id}")
+                    url=await get_shortlink(f"https://t.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
             for file in files
@@ -675,11 +675,11 @@ async def auto_filter(client, msg, spoll=False):
             [
                 InlineKeyboardButton(
                     text=f"[{get_size(file.file_size)}] {file.file_name}", 
-                    url=(f"https://t.me/{temp.U_NAME}?start=files_{file.file_id}")
+                    url=await get_shortlink(f"https://t.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
                 InlineKeyboardButton(
                     text=f"[{get_size(file.file_size)}] {file.file_name}", 
-                    url=(f"https://t.me/{temp.U_NAME}?start=files_{file.file_id}")
+                    url=await get_shortlink(f"https://t.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
             for file in files
