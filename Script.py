@@ -16,7 +16,7 @@ class script(object):
 ᴍʏ ɴᴀᴍᴇ ɪs ᴘʟᴜsᴛᴇᴄʜᴢ, ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ 😍\n━━━━━━━━━━━━━━━━━\nᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ 🙂</b>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✮ ᴍʏ ɴᴀᴍᴇ : ᴘʟᴜsᴛᴇᴄʜᴢ
+    ABOUT_TXT = """<b>✮ ᴍʏ ɴᴀᴍᴇ : ᴘʟᴜsᴛᴇᴄʜᴢ
 ✮ ᴄʀᴇᴀᴛᴏʀ: ᴛᴇᴀᴍ | sʜᴀᴅᴏᴡ
 ✮ ʟɪʙʀᴀʀʏ: ᴘᴜʀᴏɢʀᴀᴍ
 ✮ ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 𝟹
@@ -24,7 +24,7 @@ class script(object):
 ✮ ʙᴏᴛ sᴇʀᴠᴇʀ: ʜᴇʀᴜᴋᴏ
 ✮ ʙᴜɪʟᴅ sᴛᴀᴛs: ᴠ1.0.43
 ✮ sᴜᴘᴘᴏʀᴛ: <a href=https://t.me/Flims4UChat>sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</a>
-✮ ᴜᴘᴅᴀᴛᴇs: <a href=https://t.me/HDFlims4U>ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ</a>"""
+✮ ᴜᴘᴅᴀᴛᴇs: <a href=https://t.me/HDFlims4U>ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ</a></b>"""
     SOURCE_TXT = """<b>LazyPrincess is an open source project</b>
 
 You can easily get its source code from github - <a href='https://github.com/LazyDeveloperr/LazyPrincessV2'>LazyDeveloperr</a>"""
