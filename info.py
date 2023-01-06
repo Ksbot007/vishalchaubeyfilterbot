@@ -78,7 +78,7 @@ if SELF_DELETE == "True":
     SELF_DELETE = True
 
     # Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
+DOWNLOAD_TEXT_NAME = "☑️  ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ?"
 DOWNLOAD_TEXT_URL = "https://t.me/HDFlims4U"
 
     # Custom Caption Under Button #
