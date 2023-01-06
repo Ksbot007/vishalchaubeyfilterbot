@@ -687,7 +687,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/HDFlims4U')
+            InlineKeyboardButton(text="☑️  ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ?", url='https://t.me/HDFlims4U')
         ]
     )
 
