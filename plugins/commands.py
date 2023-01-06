@@ -53,8 +53,8 @@ async def start(client, message):
             InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ', url='http://T.ME/PLUSTECHZ'),
             InlineKeyboardButton('☑️ ʜᴇʟᴘ', callback_data='help')
             ],[
-            InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'),
-            InlineKeyboardButton('♻️ ɢʀᴏᴜᴘ ♻️', url='https://t.me/PlusFlimz')
+            InlineKeyboardButton(' ᴀʙᴏᴜᴛ ', callback_data='about'),
+            InlineKeyboardButton(' ɢʀᴏᴜᴘ ', url='https://t.me/PlusFlimz')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -102,8 +102,8 @@ async def start(client, message):
             InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ', url='http://T.ME/PLUSTECHZ'),
             InlineKeyboardButton('☑️ ʜᴇʟᴘ', callback_data='help')
             ],[
-            InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'),
-            InlineKeyboardButton('♻️ ɢʀᴏᴜᴘ ♻️', url='https://t.me/PlusFlimz')
+            InlineKeyboardButton(' ᴀʙᴏᴜᴛ ', callback_data='about'),
+            InlineKeyboardButton(' ɢʀᴏᴜᴘ ', url='https://t.me/PlusFlimz')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
