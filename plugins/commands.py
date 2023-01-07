@@ -73,7 +73,8 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 ᴊᴏɪɴ ɴᴏᴡ 🔥", url=invite_link.invite_link
+                    (" ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜsɪɴɢ ʙᴏᴛ!! ", url=invite_link.invite_link),
+                    InlineKeyboardButton(text="☑️  ʜᴏᴡ ᴛᴏ  ʟɪɴᴋ?", url='https://t.me/HDFlims4U')
                 )
             ]
         ]
