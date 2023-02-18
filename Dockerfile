@@ -1,11 +1,12 @@
-FROM python:3.9
+FROM python:3.10-slim-buster
 
-WORKDIR /app
+RUN apt update && apt upgrade -y
+RUN apt install git -y
+COPY requirements.txt /requirements.txt
 
-COPY requirements.txt /app/
-
-RUN pip3 install -r requirements.txt
-
-COPY . /app
-
-CMD python3 main.py
+RUN cd /
+RUN pip3 install -U pip && pip3 install -U -r requirements.txt
+RUN mkdir /Eva
+WORKDIR /Eva
+COPY start.sh /start.sh
+CMD ["/bin/bash", "/start.sh"]
