@@ -13,6 +13,3 @@ heroku3
 pynewtonmath
 pytz
 aiohttp
-dnspython
-Flask==2.2.2
-gunicorn==20.1.0
