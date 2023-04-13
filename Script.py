@@ -22,15 +22,15 @@ class script(object):
 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ 🙂 </b>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b>✮ ᴍʏ ɴᴀᴍᴇ : ᴘʟᴜsᴛᴇᴄʜᴢ
-✮ ᴄʀᴇᴀᴛᴏʀ: ᴛᴇᴀᴍ | sʜᴀᴅᴏᴡ
+    ABOUT_TXT = """<b>✮ ᴍʏ ɴᴀᴍᴇ : <a href=t.me/PlusTechzBot>ᴘʟᴜsᴛᴇᴄʜᴢ</a>
+✮ ᴄʀᴇᴀᴛᴏʀ: <a href=t.me/Knual>ᴛᴇᴀᴍ | sʜᴀᴅᴏᴡ</a>
 ✮ ʟɪʙʀᴀʀʏ: ᴘᴜʀᴏɢʀᴀᴍ
 ✮ ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 𝟹
 ✮ ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ
 ✮ ʙᴏᴛ sᴇʀᴠᴇʀ: ʜᴇʀᴜᴋᴏ
 ✮ ʙᴜɪʟᴅ sᴛᴀᴛs: ᴠ1.0.43
-✮ sᴜᴘᴘᴏʀᴛ: <a href=https://t.me/Flims4UChat>sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</a>
-✮ ᴜᴘᴅᴀᴛᴇs: <a href=https://t.me/HDFlims4U>ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ</a></b>"""
+✮ sᴜᴘᴘᴏʀᴛ: <a href=t.me/PlusFlimz>sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</a>
+✮ ᴜᴘᴅᴀᴛᴇs: <a href=t.me/PlusTechz>ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ</a></b>"""
     SOURCE_TXT = """<b>LazyPrincess is an open source project</b>
 
 You can easily get its source code from github - <a href='https://github.com/LazyDeveloperr/LazyPrincessV2'>LazyDeveloperr</a>"""
