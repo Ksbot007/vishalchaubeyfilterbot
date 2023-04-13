@@ -20,6 +20,7 @@ class script(object):
 ━━━━━━━━━━━━━━━━━━━━
 ━━━━━━━━━━━━━━━━━━━━
 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ 🙂 </b>''')
+    OWNER_TXT ="""<b> <a href=t.me/iTeamXD>iTeamXD</a></b> """
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>✮ ᴍʏ ɴᴀᴍᴇ : <a href=t.me/PlusTechzBot>ᴘʟᴜsᴛᴇᴄʜᴢ</a>
