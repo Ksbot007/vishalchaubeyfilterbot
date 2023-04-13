@@ -28,7 +28,7 @@ class script(object):
 ⪼<a href=https://t.me/HDFlims4U/9> Aɴɪᴍᴀᴛɪᴏɴ</a>
 ⪼<a href=https://t.me/HDFlims4U/11>  K-ᴅʀᴀᴍᴀ</a>
 ⪼<a href=https://t.me/HDFlims4U/13> Aɴɪᴍᴇ</a>
-⪼<a href=https://t.me/HDFlims4U/15> Mᴏᴅɪɴɢ</a>   </b>""""
+⪼<a href=https://t.me/HDFlims4U/15> Mᴏᴅɪɴɢ</a>   </b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>✮ ᴍʏ ɴᴀᴍᴇ : <a href=t.me/PlusTechzBot>ᴘʟᴜsᴛᴇᴄʜᴢ</a>
