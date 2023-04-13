@@ -13,7 +13,7 @@ def is_enabled(value, default):
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://clicksfly.com/ref/LazyDeveloperr')
     START_TXT = environ.get("START_TXT", '''<b> ʜᴇʟʟᴏ , {}\n
-ᴍʏ ɴᴀᴍᴇ ɪs @ᴘʟᴜsᴛᴇᴄʜᴢ
+ᴍʏ ɴᴀᴍᴇ ɪs <a href=t.me/PlusTechzBot>@ᴘʟᴜsᴛᴇᴄʜᴢ</a>
 ɪ ᴀᴍ ʙᴏᴛ ᴡʜɪᴄʜ ʜᴀᴠᴇ ᴍᴀɴʏ  ғɪʟᴇs ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ . ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs ᴡʜɪᴄʜ ᴀʀᴇ sᴛᴏʀᴇᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ...
 ━━━━━━━━━━━━━━━━━━━━ 
 ᴍᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀs ᴀɴ ᴀᴅᴍɪɴ  🙂 ... ɢᴇᴛ ᴀɴʏ ᴍᴏᴠɪᴇs ᴏғ ᴛʜᴇ ᴡᴏʀʟᴅ ɪɴ ᴊᴜsᴛ ᴏɴᴇ sᴇᴄᴏɴᴅ ......
