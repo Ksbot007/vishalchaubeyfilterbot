@@ -433,12 +433,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('⇄ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
-            InlineKeyboardButton('ʙᴏᴛs | ᴜᴘᴅᴀᴛᴇs', url='http://T.ME/PLUSTECHZ'),
-            InlineKeyboardButton('ғʟɪᴍs | ᴜᴘᴅᴀᴛᴇs', url='http://T.ME/HDFLIMS4U') ],[InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ', url='https://t.me/IMDB_PREMIUM'),InlineKeyboardButton('☑️ ʜᴇʟᴘ', callback_data='help')
-        ], [
-            InlineKeyboardButton(' ᴀʙᴏᴜᴛ ', callback_data='about'),
-            InlineKeyboardButton(' ɢʀᴏᴜᴘ ', url='https://t.me/PlusFlimz')
+            ],[
+            InlineKeyboardButton('🖥️  ᴏᴡɴᴇʀ', callback_data='owner'),
+            InlineKeyboardButton('💬 sᴜᴘᴘᴏʀᴛ', callback_data='support')
+            ],[
+            InlineKeyboardButton('ᴍᴏᴠɪᴇs | ᴜᴘᴅᴀᴛᴇs', url='http://T.ME/HDFLIMS4U'),
+            InlineKeyboardButton('ʙᴏᴛs | ᴜᴘᴅᴀᴛᴇs', url='http://T.ME/PLUSTECHZ')
+            ],[
+            InlineKeyboardButton('⚒️ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('☑️ ᴀʙᴏᴜᴛ', callback_data='about')
+            ],[
+            InlineKeyboardButton('- ᴊᴏɪɴ ᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ -', url='https://t.me/+ckxnKAWaE9FiMDE1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
