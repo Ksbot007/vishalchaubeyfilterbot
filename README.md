@@ -1,3 +1,16 @@
+Deploy To VPS
+<p>
+<pre>
+git clone https://github.com/Ksbot007/vishalchaubeyfilterbot
+pip3 install -U -r requirements.txt
+python3 bot.py
+</pre>
+<p>
+
+
+
+
+
 ## • What's New ?
 
 - ⟴ URL Shortener Added
