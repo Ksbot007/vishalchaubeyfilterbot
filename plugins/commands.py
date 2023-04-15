@@ -259,7 +259,7 @@ async def start(client, message):
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('ᴊᴏɪɴ ɴᴏᴡ', url='https://t.me/PlusFlimz') ] ] ),
         protect_content=True if pre == 'filep' else False,
-        await asyncio.sleep(10)
+        await asyncio.sleep(10),
         await auek.delete()
        )
                     
