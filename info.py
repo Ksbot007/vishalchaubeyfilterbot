@@ -87,6 +87,6 @@ CAPTION_BUTTON_URL = "https://t.me/PlusTechz"
 
    # Auto Delete For Bot Sending Files #
 AUMTO_DELETE_SECONDS = int(environ.get('AUMTO_DELETE_SECONDS', 5))
-AUMTO_DELETE = environ.get('AUMTO_DELETE', False)
-if AUMTO_DELETE == "False":
-    AUMTO_DELETE = False
+AUMTO_DELETE = environ.get('AUMTO_DELETE', True)
+if AUMTO_DELETE == "True":
+    AUMTO_DELETE = True
