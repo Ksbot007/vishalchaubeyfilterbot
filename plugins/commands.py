@@ -260,7 +260,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('ᴊᴏɪɴ ɴᴏᴡ', url='https://t.me/PlusFlimz') ] ] ),
         protect_content=True if pre == 'filep' else False,
        )await asyncio.sleep(10) 
-        return await oahs.delete()
+        await oahs.delete()
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
